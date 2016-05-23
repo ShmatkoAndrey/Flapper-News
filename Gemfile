@@ -34,12 +34,16 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-
-  gem 'shmatgem'
-  gem 'angular-rails-templates'
-  gem 'responders'
-  gem 'angular_rails_csrf'
-  gem 'devise'
-
 end
 
+gem 'shmatgem'
+gem 'angular-rails-templates'
+gem 'responders'
+gem 'angular_rails_csrf'
+gem 'bower-rails'
+gem 'devise'
+
+gem 'angularjs-rails'
+source 'https://rails-assets.org' do
+  gem 'rails-assets-angular-devise'
+end
