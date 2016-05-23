@@ -16,4 +16,4 @@ angular.module('flapperNews')
             $scope.user = {};
         });
     }
-]);
+]); 
